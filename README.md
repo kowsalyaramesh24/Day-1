@@ -40,3 +40,22 @@ printf("%d\n",c[i]);
 } 
 getch() ;
 } 
+
+Output :
+
+Enter the elements (max=8) 
+1
+0
+2
+5
+0
+7
+
+The elements are
+
+1
+2
+5
+7
+0
+0
