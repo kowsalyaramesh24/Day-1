@@ -1,0 +1,185 @@
+                                       INPUT & OUTPUT
+                                      -----------------
+                                  
+PROGRAM:
+
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+int n;
+char a[50];
+int i,j,m;
+clrscr();
+printf("Enter the element:");
+scanf("%d",&n);
+printf("\nThe element is:");
+printf("%d\n\n",n);
+printf("\nEnter the name\n");
+scanf("%s",a);
+printf("\nThe name is:\n");
+printf("%s",a);
+getch();
+}
+
+OUTPUT:
+
+Enter the element:
+5
+The element is:5
+
+
+Enter the name:
+Mathan
+The name is:
+Mathan
+
+
+
+                                        OPERATORS
+                                      --------------
+                                      
+PROGRAM:
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,d,e,f,g,h;
+clrscr();
+printf("Enter two numbers:\n");
+scanf("%d%d",&a,&b);
+c=a+b;
+d=a-b;
+e=a*b;
+f=a/b;
+g=a%b;
+printf("\n\nAddition=%d\nSubtraction=%d\nMultiplication=%d\nDivision=%d\nModulus=%d\n\n",c,d,e,f,g);
+if(d==f)
+{
+printf("Subtraction and division value are same\n");
+}
+getch();
+}
+
+
+OUTPUT:
+
+Enter two numbers:
+4
+2
+
+Addition=6
+Subtraction=2
+Multiplication=8
+Division=2
+Modulus=0
+
+Subtraction and Division value are same
+
+
+
+                                           BASICS
+                                         -----------
+                                         
+PROGRAM:
+
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+void main()
+{
+int a=0,e=0,i=0,o=0,u=0;
+char s[10];
+int j;
+int s_len;
+printf("Enter the string:\n");
+scanf("%s",s);
+for(j=0;j<10;j++)
+{
+if(s[j]=='a')
+{
+a++;
+}
+else if(s[j]=='e')
+{
+e++;
+}
+else if(s[j]=='i')
+{
+i++;
+}
+else if(s[j]=='o')
+{
+o++;
+}
+else if(s[j]=='u')
+{
+u++;
+}
+}
+printf("a=%d\ne=%d\ni=%d\no=%d\nu=%d\n",a,e,i,o,u);
+getch();
+}
+
+
+OUTPUT:
+
+
+Enter the string:
+mathan
+
+a=2
+e=0
+i=0
+o=0
+u=0
+
+
+
+                                          ARRAY
+                                         --------
+                                         
+PROGRAM:
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[50];
+int i,m;
+clrscr();
+printf("Enter the size of the array(max=50):\n");
+scanf("%d",&m);
+printf("Enter %d elements\n",m);
+for(i=0;i<m;i++)
+{
+scanf("%d\n",&a[i]);
+}
+printf("the elements are:\n");
+for(i=0;i<m;i++)
+{
+printf("%d\n",a[i]);
+}
+getch();
+}
+
+
+OUTPUT:
+
+Enter the size of the array(max=50)
+5
+Enter 5 elements
+7
+2
+4
+1
+0
+
+The elements are
+7
+2
+4
+1
+0
+
